@@ -19,7 +19,7 @@ We need the user be able to specify the
 - the predictor matrix; if relevant with blocks 
 - the visit sequence 
 
-Later on, we may extend this to formulae for the imputation models.
+Later on, we may extend this to formula notation for the imputation models.
 
 ## Presentation of imputed data 
 The most conscientious way to export the imputed data is to export both the `mids` object from `mice` and present the user with an extracted long format data set. The `mids` object contains all crucial information about the imputation process and the algorithm. The long format data set mimics the original data, but appends a column indicator for the $m$ imputed data sets. 
